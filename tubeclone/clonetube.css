@@ -1,0 +1,108 @@
+/* Used Roboto font since trade gothic is not free */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+}
+.header-container {
+    background-color: #212121;
+    width: 94%;
+    position: fixed;
+    top: 0;
+    left: 6%;
+}
+.header {
+    overflow: hidden;
+    border-bottom: 1px solid #3d3d3d;
+}
+.header a {
+    margin: 20px 15px;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+}
+.header-right{
+    float: right;
+    margin: 20px 15px;
+}
+.header-right span{
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 15px;
+}
+input[type=text] {
+    width: 50%;
+    margin: 10px 0px 10px 80px;
+    padding: 10px;
+    background-color: #000;
+    border:  1px solid #3d3d3d;
+}
+#search-icon{
+    color: #aaaaaa;
+    margin: 0px;
+    background-color: #3d3d3d;
+    padding: 9px 20px;
+}
+#rec {
+    margin: 0px 20px;
+    color: #fff;
+    background-color: #212121;
+}
+.sidenav {
+    height: 100%;
+    width: 6%;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #212121;
+    overflow-x: hidden; 
+}
+.sidenav span {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    width: 60px;
+}
+.sidenav i {
+    font-size: x-large;
+    margin: 20px 0px 5px 0px;
+}
+.badge-header {
+    overflow: hidden;
+    border-bottom: 1px solid #3d3d3d;
+    padding: 20px 0px;
+}
+.badge-header span{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1 px solid #3d3d3d;
+    background-color: #3d3d3d;
+}
+#first {
+    background-color: #fff;
+    color: #181818;
+}
+.row{
+    margin-left: 6%;
+    margin-top: 100px;
+}
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    height: 300px;
+}
+.column img{
+    width: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 @font-face {
     font-family: Typographica;
     src: url("assets/TypoGraphica_demo.otf") format("opentype");
@@ -54,4 +56,37 @@ body {
 .projects {
     position: relative;
     text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.column {
+    float: left;
+    margin-left: 5%;
+    width: 45%;
+}
+
+.col-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #276678;
+}
+
+.col-quote {
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    -webkit-box-shadow: -6px 7px 10px 2px rgba(0,0,0,0.44); 
+    box-shadow: -6px 7px 10px 2px rgba(0,0,0,0.44);
 }

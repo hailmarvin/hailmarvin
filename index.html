@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
 </head>
 <body>
     <blockquote class="header" 
@@ -28,8 +29,30 @@
     </div>
 </div>  
 <div data-aos="fade-up"
+    data-aos-easing="linear"
+    data-aos-duration="1500"
+    data-aos-offset="200"
+    data-aos-duration="100"
     class="projects">
-    <h2>Projects</h2>
+    <h2>PROJECTS</h2>
+    <div data-aos="fade-right"
+    data-aos-easing="linear"
+    data-aos-duration="1500"
+    data-aos-offset="200"
+    data-aos-duration="100"
+    class="row">
+        <div class="column">
+          <img src="assets/clonetube.png" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+            <a href="tubeclone/clonetube.html" class="col-header">CloneTube</a>
+          <blockquote  class="col-quote">
+                Youtube clone written in html and css only. 
+                Built from scratch. 
+                None of the buttons work
+          </blockquote>
+        </div>
+      </div>
 </div>
 <script>
     AOS.init();
