@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Typographica;
+    src: url("assets/TypoGraphica_demo.otf") format("opentype");
+}
+
+body {
+    margin: 0;
+    height: 100;
+    background-color: #f6f5f5;
+    font-family: 'Typographica', sans-serif;
+    background-image:       linear-gradient(0deg, transparent 24%, #d3e0ea 25%, #d3e0ea 26%, transparent 27%, transparent 74%, #d3e0ea 75%, #d3e0ea 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, #d3e0ea 25%, #d3e0ea 26%, transparent 27%, transparent 74%, #d3e0ea 75%, #d3e0ea 76%, transparent 77%, transparent);
+    height:100vh;
+    background-size:100px 100px;
+    padding: 15px 0px;
+    /* background-image:linear-gradient(#434343, #282828); */
+}  
+
+.header {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 160px;
+    color: #276678;
+    line-height: 140px;
+}
+
+.skills-container {
+    height: 10%;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.skills {   
+    margin-top: -100px;
+    margin-right: 100px;
+    font-size: x-large;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.skills p span {
+    margin: 0px 20px;
+}
+
+.skills-header {
+    color: #1687a7;   
+    margin-bottom: 10px;
+}
+
+.projects {
+    position: relative;
+    text-align: center;
+}
