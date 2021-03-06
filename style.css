@@ -102,9 +102,15 @@ body {
     width: 50rem;
     grid-gap: 6rem;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    align-items: start;
+    float: left;
     font-family: 'Roboto', sans-serif;
 }
+
+.grid-2 {
+    float: right;
+    margin-right: 6em;
+}
+
 @media (max-width: 60em) {
     .grid {
         grid-gap: 3rem;
