@@ -8,3 +8,4 @@ Live Demos
 - [ ] Whatsapp Web
 - [ ] Instagram
 - [ ] Webtoon
+- [ ] Responsive capability
