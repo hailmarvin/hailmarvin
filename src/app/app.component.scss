@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+.init_back {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(235, 209, 139, 0.637);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 500%;
+    font-family: 'TypoGraphica', sans-serif;
+    padding: 20px;
+    background: linear-gradient(315deg, #2d5778, #673838, #5f3a6e, #091b3f, #2f7438, #721562, #3accc3);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: AnimationName 14s ease infinite;
+    -moz-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+h4 {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #673838;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+
+    a {
+        margin: 10px;
+        cursor: pointer;
+    }
+}
